@@ -1,0 +1,205 @@
+/* Abdiqafar Elias, Student ID: 8976557 */
+
+html {
+    font: 20px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #e0f7fa; 
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #ffffff; 
+    color: #000000; 
+}
+
+header {
+    text-align: center;
+    background: linear-gradient(to right, #cc8400, #cc3400); 
+    padding: 2rem;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #ffffff; 
+}
+
+main {
+    overflow: hidden; 
+}
+
+#biography {
+    float: left;
+    width: 70%;
+    padding: 2rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #c2e0e9; 
+}
+
+#biography blockquote {
+    font-style: italic;
+    color: #004d00; 
+    border-left: 0.5rem solid #004d00; 
+    padding-left: 1rem;
+    margin: 2rem 0;
+}
+
+#biography h2 {
+    font-variant: small-caps;
+    color: #004d00; 
+    text-align: center;
+}
+
+#achievements {
+    float: left;
+    width: 70%;
+    padding: 2rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #c2e0e9;
+}
+
+#achievements figure {
+    border: 0.1rem solid #cc8400; 
+    padding: 1rem;
+    background-color: #e6f7ff; 
+    border-radius: 1rem;
+}
+
+#achievements img {
+    border-radius: 1rem;
+    display: block;
+    margin: 0 auto;
+}
+
+#achievements figcaption {
+    font-variant: small-caps;
+    color: #8b4513; 
+    text-align: center;
+}
+
+#quotes {
+    clear: both;
+    padding: 2rem;
+    background-color: #c2f0f0;
+}
+
+#quotes q {
+    font-style: italic;
+    color: #007474; 
+    border: 0.1rem solid #007474; 
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#media {
+    clear: both;
+    padding: 2rem;
+    background-color: #e6fff2; 
+}
+
+#media video {
+    display: block;
+    margin: 0 auto;
+    border: 0.2rem solid #004b8d; 
+    border-radius: 1rem;
+}
+
+aside {
+    float: right;
+    width: 30%;
+    padding: 2rem;
+    background-color: #e0ffe0; 
+}
+
+aside h2 {
+    font-variant: small-caps;
+    color: #004d00; 
+    text-align: center;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin: 1rem 0;
+}
+
+aside ul li a {
+    color: #004d4d; 
+    text-decoration: none;
+}
+
+aside ul li a:hover {
+    text-decoration: underline;
+}
+
+aside form {
+    display: flex;
+    flex-direction: column;
+}
+
+aside form label {
+    margin-top: 1rem;
+    font-variant: small-caps;
+    color: #004d00; 
+}
+
+aside form input,
+aside form textarea {
+    padding: 1rem;
+    margin-top: 0.5rem;
+    border: 0.1rem solid #007474; 
+    border-radius: 0.5rem;
+}
+
+aside form input[type="submit"] {
+    background-color: #007474; 
+    color: #ffffff; 
+    border: none;
+    cursor: pointer;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
+
+aside form input[type="submit"]:hover {
+    background-color: #004d4d; 
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 2rem;
+    background: linear-gradient(to right, #008000, #006400); 
+    color: #ffffff; 
+    font-size: 0.8rem;
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+
+    body {
+        padding: 1rem;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    main, aside {
+        float: none;
+        width: 100%;
+        padding: 1rem;
+    }
+
+    #biography, #achievements {
+        width: 100%;
+    }
+
+    footer {
+        font-size: 0.7rem;
+    }
+}
